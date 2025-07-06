@@ -5,4 +5,5 @@
 ## Installation - 
 
 1. `cp nixos-nvim/nvim ~/.config/home-manager -r`
-2. `home-manager switch`
+2. Edit home.nix and add to imports `./nix`
+3. `home-manager switch`
